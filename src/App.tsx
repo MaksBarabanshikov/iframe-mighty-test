@@ -5,7 +5,7 @@ import superChainLogo from "./assets/superchain.png";
 import "./App.css";
 import { SizedBox } from "./sizedBox";
 
-import { MightyWidget, MightyPage } from "mightyiframeintegration";
+import { MightyWidget, MightyPage } from "mighty-iframe";
 import WidgetSetup from "./Constructor";
 
 function App() {

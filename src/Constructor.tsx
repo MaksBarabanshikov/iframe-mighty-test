@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { MightyWidget } from "mightyiframeintegration";
+import { MightyWidget } from "mighty-iframe";
 
 const WidgetSetup = () => {
     const [url, setUrl] = useState('https://test.mighty.study/TON1');
