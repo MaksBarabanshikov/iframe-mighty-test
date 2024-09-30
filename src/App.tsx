@@ -5,7 +5,7 @@ import superChainLogo from "./assets/superchain.png";
 import "./App.css";
 import { SizedBox } from "./sizedBox";
 
-import { MightyWidget, MightyPage } from "mightyiframeintegration";
+import { MightyWidget, MightyPage } from "mighty-iframe";
 import WidgetSetup from "./Constructor";
 
 function App() {
@@ -39,6 +39,8 @@ function App() {
         >
           <MightyPage
             partnerId="Superchain"
+            //@ts-ignore
+            logoSrc={superChainLogo}
             targetUrl="https://test.mighty.study/courses/669a8e515007186b0e7aff9c"
           />
         </div>
